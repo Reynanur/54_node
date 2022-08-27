@@ -1,6 +1,6 @@
 const yargs = require('yargs')
 const notes = require('./S4L6.js')
-const chalk = require('chalk')
+
 yargs.command({
     command : 'add',
     describe: "Adding a Note",
